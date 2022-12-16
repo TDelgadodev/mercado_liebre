@@ -1,0 +1,17 @@
+.footer__article div{
+    margin-left: 45%;
+    color: var(--colorCeleste);
+    font-size: 2.5em;
+    margin-bottom: -1%;
+}
+
+.footer__article--titulo{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: -1%;
+}
+
+.footer__article p{
+    text-align: center;
+    margin-bottom: 12%;
+}
