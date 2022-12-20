@@ -5,9 +5,14 @@ header{
     background-color: #EAC926;
 }
 
+
 .header__logo p{
-    font-size: 12px;
+    font-size: 14px;
     text-align: center
+}
+
+.header__logo--navbar{
+    display: none;
 }
 
 .header__logo--navbar ul{
@@ -17,7 +22,7 @@ header{
     list-style: none;
     color: black;
 }
-.burger-menu{
+.burger-menu button{
     width: 45px;
     height: 45px;
     background-color: var(--colorCeleste);
@@ -29,3 +34,12 @@ header{
     border-radius: 10px;
 }
 
+/* Tablet */
+@media (min-width: 361px){
+    .header__logo--navbar{
+        display: block;
+    }
+    .burger-menu{
+        display: none;
+    }
+}

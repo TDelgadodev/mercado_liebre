@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto';
+    background-color: var(--colorGrisClaro);
 }
 a{
     text-decoration: none;
