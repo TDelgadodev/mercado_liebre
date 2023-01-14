@@ -1,0 +1,50 @@
+.register__main__section__form .form__box label {
+  font-weight: 700;
+}
+
+.register__form__box__profile {
+    margin: 15px 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.register__form__box__profile label {
+  color: var(--colorGrisOscuro);
+  font-weight: 700;
+}
+
+.register__form__box__option{
+    margin-right: 14px;
+}
+.register__form__box__flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px 0;
+}
+
+.register__form__box__flex input{
+    margin: 0 16px;
+}
+.register__form__box{
+    margin: 15px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.register__form__box div{
+    margin: 15px 10px;
+}
+.register__form__box label{
+    color: var(--colorGrisOscuro);
+    font-weight: 700;
+}
+.register__form__box input{
+    margin-right: 12px;
+}
+
+@media (min-width:768px) {
+    .register__form__box__profile{
+        display: block;
+    }
+}
